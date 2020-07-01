@@ -67,7 +67,7 @@ Widget _buildListTile(BuildContext context, Task item) {
   }
 
   List<Task> getList() {
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 5; i++) {
       taskList.add(Task("My first todo"+ i.toString(), false, i.toString()));
     }
     return taskList;

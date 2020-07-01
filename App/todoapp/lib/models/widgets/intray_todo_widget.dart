@@ -32,7 +32,7 @@ class IntrayTodo extends StatelessWidget {
               Text(title, style: darkTodoTitle, )
             ],)
         ]
-      ),
+
     );
   }
 
